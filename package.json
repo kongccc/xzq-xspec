@@ -1,5 +1,5 @@
 {
-  "name": "@xzq/xspec",
+  "name": "@xzqxzq/xspec",
   "version": "1.0.0",
   "description": "AI Agent开发专用模板工具 - 提供agent-framework、conversation-agent、task-agent等AI Agent开发模板",
   "main": "index.js",
@@ -7,9 +7,9 @@
     "xspec": "./bin/cli.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"No tests specified\" && exit 0",
     "start": "node bin/cli.js",
-    "prepublishOnly": "npm test"
+    "prepublishOnly": "echo \"Preparing for publish...\""
   },
   "keywords": [
     "ai",
