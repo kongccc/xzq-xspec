@@ -1,0 +1,49 @@
+{
+  "name": "@xzq/xspec",
+  "version": "1.0.0",
+  "description": "AI Agent开发专用模板工具 - 提供agent-framework、conversation-agent、task-agent等AI Agent开发模板",
+  "main": "index.js",
+  "bin": {
+    "xspec": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bin/cli.js",
+    "prepublishOnly": "npm test"
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "cli",
+    "template",
+    "scaffold",
+    "ai-agent",
+    "conversation-agent",
+    "task-agent",
+    "framework"
+  ],
+  "author": "xzq",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^11.1.0",
+    "download-git-repo": "^3.0.2",
+    "chalk": "^4.1.2",
+    "ora": "^5.4.1",
+    "inquirer": "^8.2.6",
+    "fs-extra": "^11.2.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xzq/xspec.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xzq/xspec/issues"
+  },
+  "homepage": "https://github.com/xzq/xspec#readme",
+  "publishConfig": {
+    "access": "public"
+  }
+}
